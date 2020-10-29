@@ -1,30 +1,19 @@
 ##Lekcja 1 – Markdown lekki język znaczników 
 
 ####Spis treści
-
-Lekcja 1 – Markdown lekki język znaczników....................................................................................1
-&nbsp;Wstęp...............................................................................................................................................1
-&nbsp;Podstawy składni.............................................................................................................................3
-- &nbsp;Definiowanie nagłówków...........................................................................................................3
-- &nbsp;Definiowanie list.........................................................................................................................4
-- &nbsp;Wyróżnianie tekstu......................................................................................................................4
-- &nbsp;Tabele..........................................................................................................................................5
-- &nbsp;Odnośniki do zasobów................................................................................................................5
-- &nbsp;Obrazki........................................................................................................................................5
-- &nbsp;Kod źródłowy dla różnych języków programowania.................................................................5
-- &nbsp;Tworzenie spisu treści na podstawie nagłówków.......................................................................6
-Edytory dedykowane.......................................................................................................................7
-Pandoc – system do konwersji dokumentów Markdown do innych formatów...............................8
-
-Lekcja 2 – Git – system kontroli wersji................................................................................................9
-&nbsp;Git - podstawowe cechy...................................................................................................................9
-&nbsp;Idea pracy:........................................................................................................................................9
-&nbsp;Git – tworzenie pustego archiwum lokalnego...............................................................................11
-
-Zadania do wykonania na punkty.......................................................................................................21
-&nbsp;WstępZadanie 1 – 2pkt............................................................................................................................21
-&nbsp;Zadanie 2 – 4pkt............................................................................................................................21
-&nbsp;Zadanie 3 - 4pkt.............................................................................................................................21
+- [Spis treści](#spis-treści)
+- [Wstęp](#wstęp)
+- [Podstawy składni](#podstawy-składni)
+  - [Definiowanie nagłówków](#definiowanie-nagłówków)
+  - [Definiowanie list](#definiowanie-list)
+  - [Wyróżnianie tekstu](#wyróżnianie-tekstu)
+  - [Tabele](#tabele)
+  - [Odnośniki do zasobów](#odnośniki-do-zasobów)
+  - [Obrazki](#obrazki)
+  - [Kod źródłowy dla różnych języków programowania](#kod-źródłowy-dla-różnych-języków-programowania)
+  - [Tworzenie spisu treści na podstawie nagłówków](#tworzenie-spisu-treści-na-podstawie-nagłówków)
+- [Edytory dedykowane](#edytory-dedykowane)
+- [Pandoc – system do konwersji dokumentów Markdown do innych formatów](#pandoc--system-do-konwersji-dokumentów-markdown-do-innych-formatów)
 
 
 ####Wstęp
@@ -49,9 +38,8 @@ Przykład kodu html i jego interpretacja w przeglądarce:
 </body>
 </html>
 ```
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
 
-![my link](file://Capture_pp.png)
+![my link](./Capture_pp.PNG)
 
 
 Przykład kodu Latex i wygenerowanego pliku w formacie pdf
