@@ -1,6 +1,6 @@
-##Lekcja 1 – Markdown lekki język znaczników 
+## Lekcja 1 – Markdown lekki język znaczników 
 
-####Spis treści
+#### Spis treści
 - [Spis treści](#spis-treści)
 - [Wstęp](#wstęp)
 - [Podstawy składni](#podstawy-składni)
@@ -58,6 +58,8 @@ Przykład kodu Latex i wygenerowanego pliku w formacie pdf
 \end{letter}
 \end{document}
 ```
+![my link](./zdj_2.PNG)
+
 Przykład kodu XML – fragment dokumentu SVG (Scalar Vector Graphics)
 
 ```xml
@@ -70,14 +72,17 @@ Przykład kodu XML – fragment dokumentu SVG (Scalar Vector Graphics)
 </body>
 </html>
 ```
+![my link](./zdj_3.PNG)
 
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
 
 W tym przypadku mamy np. znacznik np. `<circle>` opisujący parametry koła i który może być
 właściwie zinterpretowany przez dedykowaną aplikację (np. przeglądarki www).
 Jako ciekawostkę można podać fakt, że również pakiet MS Office wykorzystuje format XML do
 przechowywania informacji o dodatkowych parametrach formatowania danych. Na przykład pliki z
 rozszerzeniem docx, to nic innego jak spakowane algorytmem zip katalogi z plikami xml.
+
+![my link](./zdj_4.PNG)
+
 ```
 $unzip -l test.docx
 Archive: test.docx
@@ -118,20 +123,20 @@ opis w języku polskim.
 W tym celu używamy znaku kratki
 Lewe okno zawiera kod źródłowy – prawe -podgląd przetworzonego tekstu
 
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
+![my link](./zdj_5.PNG)
 
 ## Definiowanie list
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
 
+![my link](./zdj_6.PNG)
 Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką.
 
 Listy nienumerowane definiujemy znakami: *,+,-
 
 ## Wyróżnianie tekstu
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
+![my link](./zdj_7.PNG)
 
 ## Tabele
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
+![my link](./zdj_8.PNG)
 
 Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
 
@@ -152,10 +157,10 @@ internetowych
 \!\[](logo.png) – obraz z lokalnych zasobów
 
 ## Kod źródłowy dla różnych języków programowania
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
+![my link](./zdj_9.PNG)
 
 ## Tworzenie spisu treści na podstawie nagłówków
-![alt text](https://aosa.org/wp-content/uploads/2019/04/image-placeholder-350x350.png)
+![my link](./zdj_10.PNG)
 
 # Edytory dedykowane
 Pracę nad dokumentami w formacie Markdown( rozszerzenie md) można wykonywać w
